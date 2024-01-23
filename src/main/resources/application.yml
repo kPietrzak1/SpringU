@@ -1,0 +1,6 @@
+spring:
+  banner:
+    location: logo.txt
+    charset: utf-8
+
+
