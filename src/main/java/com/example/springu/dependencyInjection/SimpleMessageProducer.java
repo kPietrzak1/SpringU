@@ -1,8 +1,10 @@
 package com.example.springu.dependencyInjection;
 
-public class SimpleMessageProducer {
+public abstract class SimpleMessageProducer implements MessageProducer {
 
-    String getMessage(){
+    public String getMessage(){
         return "exampleMassage " + System.currentTimeMillis();
     }
+
+    public abstract String getMassage();
 }

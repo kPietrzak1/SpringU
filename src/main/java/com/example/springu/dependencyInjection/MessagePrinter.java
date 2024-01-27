@@ -2,15 +2,17 @@ package com.example.springu.dependencyInjection;
 
 public class MessagePrinter {
 
-    private final SimpleMessageProducer messageProducer;
+    private final MessageProducer messageProducer;
 
-    public MessagePrinter(SimpleMessageProducer messageProducer) {
+    public MessagePrinter(MessageProducer messageProducer) {
         this.messageProducer = messageProducer;
     }
 
-    void printMessage() {
+    public void printMessage() {
         String message = messageProducer.getMessage();
         System.out.println(message);
     }
+
+
 
 }
