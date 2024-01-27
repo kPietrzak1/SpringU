@@ -1,4 +1,4 @@
-package com.example.springu.dependencyInjection;
+package com.example.springu.containerDependencyInjection;
 
 public class Book {
     private String title;

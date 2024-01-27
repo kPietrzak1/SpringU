@@ -1,6 +1,5 @@
 package com.example.springu;
 
-import com.example.springu.dependencyInjection.MessagePrinter;
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 

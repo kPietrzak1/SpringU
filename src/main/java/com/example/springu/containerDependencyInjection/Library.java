@@ -1,4 +1,4 @@
-package com.example.springu.dependencyInjection;
+package com.example.springu.containerDependencyInjection;
 
 import java.util.ArrayList;
 import java.util.List;

@@ -1,4 +1,4 @@
-package com.example.springu.dependencyInjection;
+package com.example.springu.containerDependencyInjection;
 
 public class ClassB {
     private ClassA a = new ClassA();
