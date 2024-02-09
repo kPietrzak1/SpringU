@@ -1,5 +1,8 @@
 package com.example.springu.containerDependencyInjection;
 
+import org.springframework.stereotype.Service;
+
+@Service
 public class MessagePrinter {
 
     private final MessageProducer messageProducer;
